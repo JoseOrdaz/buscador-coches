@@ -122,8 +122,22 @@ function filtrarAuto() {
     const resultado = coches.filter(filtrarMarca).filter(filtrarYear).filter(filtrarMinimo).filter(filtrarMaximo).filter(filtrarPuertas).filter(filtrarTransmision).filter(filtrarColor);
     console.log(resultado);
 
-    mostrarCoches(resultado)
+   
+    if(resultado.length){
+        mostrarCoches(resultado)
+    }else{
+        noresultado();
+    }
 }
+
+function noresultado(){
+    limpiarHTML();
+    const noResultado = document.createElement('div');
+    noResultado.classList.add('alerta','error');
+    noResultado.textContent = 'No hay resultados';
+    resultado.appendChild(noResultado);
+}
+
 
 function filtrarMarca(coches) {
     const {marca} = datosBusqueda;
