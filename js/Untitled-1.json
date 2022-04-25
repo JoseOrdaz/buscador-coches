@@ -1,0 +1,223 @@
+{
+  "type": "column",
+  "name": "header",
+  "id": "header",
+  "style": "padding: 0em;",
+  "dataid": "256",
+  "className": "row",
+  "segments": [
+    {
+      "style": "padding: 1rem;",
+      "dataid": "172369",
+      "segments": [
+        {
+          "style": "padding: 0;",
+          "dataid": "172735",
+          "className": "ui container",
+          "segments": [
+            {
+              "style": "padding: 1rem;",
+              "dataid": "30707",
+              "className": "cabecera-transparencia column",
+              "segments": [
+                {
+                  "style": "padding: 0em;",
+                  "dataid": "4213",
+                  "className": "logo-web",
+                  "segments": [
+                    {
+                      "name": "client-logo-head",
+                      "_ref": "620cd259c56a152198431642#client-logo-head",
+                      "style": "padding: 0em;",
+                      "dataid": "201863",
+                      "className": "logo-web",
+                      "segments": []
+                    }
+                  ]
+                },
+                {
+                  "style": "padding: 0 0 0 1rem;",
+                  "dataid": "30713",
+                  "className": "column",
+                  "segments": [
+                    {
+                      "style": "width: 100%;padding: 0;",
+                      "dataid": "14600",
+                      "className": "only-mobile mobile-button-block floated right column",
+                      "components": [
+                        {
+                          "name": "dv-simple",
+                          "type": "component",
+                          "id": "openMenuMobile",
+                          "dataid": "12974",
+                          "tag": "button",
+                          "value": "<i class=\"big bars icon\"></i>"
+                        }
+                      ]
+                    },
+                    {
+                      "style": "padding: 1rem;",
+                      "dataid": "188397",
+                      "className": "column"
+                    },
+                    {
+                      "style": "padding: 1rem;",
+                      "dataid": "188368",
+                      "segments": [
+                        {
+                          "type": "column",
+                          "style": "padding: 0em;",
+                          "dataid": "29922",
+                          "className": "row column",
+                          "segments": [
+                            {
+                              "style": "padding: 0;",
+                              "dataid": "100",
+                              "className": "column",
+                              "segments": [
+                                {
+                                  "name": "client-social-network",
+                                  "_ref": "620cd259c56a152198431642#client-social-network",
+                                  "style": "padding: 0rem;",
+                                  "dataid": "201867",
+                                  "className": "client-social-network",
+                                  "segments": []
+                                },
+                                {
+                                  "style": "padding: 0 1em;width: 150px;",
+                                  "dataid": "199195",
+                                  "className": "column",
+                                  "components": [
+                                    {
+                                      "name": "dv-simple",
+                                      "type": "component",
+                                      "dataid": "199169",
+                                      "style": "margin: 0;",
+                                      "tag": "p",
+                                      "value": "<div class=\"ui search\">\n  <div class=\"ui icon input\">\n    <input class=\"prompt\" type=\"text\" placeholder=\"Buscar...\" autocomplete=\"off\">\n    <i class=\"search icon\"></i>\n  </div>\n  <div class=\"results\"></div>\n</div>"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "style": "padding: 0em 1em;min-width: 140px;",
+                                  "dataid": "28333",
+                                  "className": "column",
+                                  "components": [
+                                    {
+                                      "name": "dv-simple",
+                                      "type": "component",
+                                      "className": "ui dropdown",
+                                      "id": "change-lang",
+                                      "dataid": "28334",
+                                      "localized": "{\"und\":\"<div class=\\\"default text\\\">Castellano</div>\\n<i class=\\\"chevron down icon\\\"></i>\\n  <div class=\\\"menu\\\">\\n    <div onclick=\\\"changeLangHandler('va')\\\" class=\\\"item\\\">Valenciano</div>\\n  </div>\",\"va\":\"<div class=\\\"default text\\\">València</div>\\n<i class=\\\"chevron down icon\\\"></i>\\n  <div class=\\\"menu\\\">\\n    <div onclick=\\\"changeLangHandler('es')\\\" class=\\\"item\\\">Castellà</div>\\n  </div>\",\"es\":\"<div class=\\\"default text\\\">Castellano</div>\\n<i class=\\\"chevron down icon\\\"></i>\\n  <div class=\\\"menu\\\">\\n    <div onclick=\\\"changeLangHandler('va')\\\" class=\\\"item\\\">Valenciano</div>\\n  </div>\",\"ca\":\"<div class=\\\"default text\\\">Castellano</div>\\n<i class=\\\"chevron down icon\\\"></i>\\n  <div class=\\\"menu\\\">\\n    <div onclick=\\\"changeLangHandler('va')\\\" class=\\\"item\\\">Valenciano</div>\\n  </div>\"}",
+                                      "tag": "div"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "style": "padding: 1rem;",
+      "dataid": "173092",
+      "className": "fondo-menu-principal",
+      "segments": [
+        {
+          "style": "padding: 1rem;",
+          "dataid": "173135",
+          "className": "ui container menu-principal",
+          "components": [
+            {
+              "name": "dv-simple",
+              "type": "component",
+              "dataid": "270115",
+              "style": "margin: 0;",
+              "localized": "{\"und\":\"<div class=\\\"ui modal modal-contacto\\\">\\n  <i class=\\\"close icon\\\"></i>\\n  <div class=\\\"header\\\">\\n    Contacto\\n  </div>\\n  <div class=\\\"content\\\">\\n  \\n    <script src=\\\"https://components.digitalvalue.es/lib/mithril.min.js\\\"></script>\\n<script src=\\\"https://components.digitalvalue.es/dv-components-m/formulario-solicitudes.min.js\\\"></script>\\n\\n\\n<div id=\\\"formulario-propuestas\\\"></div>\\n\\n<script>\\n\\n\\ndocument.addEventListener(\\\"DOMContentLoaded\\\", function() {\\n\\n\\nlet url = new URLSearchParams(document.location.search.substring(1));\\nsessionStorage.lang = url.get(\\\"locale\\\") || 'es'\\nm.mount(document.getElementById(\\\"formulario-propuestas\\\"),{ view:()=>m(FormularioSolicitud,{realm: localStorage.realm || \\\"alcantir\\\",contactPosition:'up', mailbox: 'incidences'})})\\n  \\n  \\n}) \\n    </script>\\n    \\n    \\n  </div>\\n  <div class=\\\"actions\\\">\\n    <div class=\\\"ui red deny button\\\">\\n      Cerrar\\n    </div>\\n    \\n  </div>\\n</div>\",\"va\":\"<div class=\\\"ui modal modal-contacto\\\">\\n  <i class=\\\"close icon\\\"></i>\\n  <div class=\\\"header\\\">\\n    Contacte\\n  </div>\\n  <div class=\\\"content\\\">\\n  \\n    <script src=\\\"https://components.digitalvalue.es/lib/mithril.min.js\\\"></script>\\n<script src=\\\"https://components.digitalvalue.es/dv-components-m/formulario-solicitudes.min.js\\\"></script>\\n\\n\\n<div id=\\\"formulario-propuestas\\\"></div>\\n\\n<script>\\n\\n\\ndocument.addEventListener(\\\"DOMContentLoaded\\\", function() {\\n\\n\\nlet url = new URLSearchParams(document.location.search.substring(1));\\nsessionStorage.lang = url.get(\\\"locale\\\") || 'es'\\nm.mount(document.getElementById(\\\"formulario-propuestas\\\"),{ view:()=>m(FormularioSolicitud,{realm: localStorage.realm || \\\"alcantir\\\",contactPosition:'up', mailbox: 'incidences'})})\\n  \\n  \\n}) \\n    </script>\\n    \\n    \\n  </div>\\n  <div class=\\\"actions\\\">\\n    <div class=\\\"ui red deny button\\\">\\n      Tancar\\n    </div>\\n    \\n  </div>\\n</div>\",\"es\":\"<div class=\\\"ui modal modal-contacto\\\">\\n  <i class=\\\"close icon\\\"></i>\\n  <div class=\\\"header\\\">\\n    Contacto\\n  </div>\\n  <div class=\\\"content\\\">\\n  \\n    <script src=\\\"https://components.digitalvalue.es/lib/mithril.min.js\\\"></script>\\n<script src=\\\"https://components.digitalvalue.es/dv-components-m/formulario-solicitudes.min.js\\\"></script>\\n\\n\\n<div id=\\\"formulario-propuestas\\\"></div>\\n\\n<script>\\n\\n\\ndocument.addEventListener(\\\"DOMContentLoaded\\\", function() {\\n\\n\\nlet url = new URLSearchParams(document.location.search.substring(1));\\nsessionStorage.lang = url.get(\\\"locale\\\") || 'es'\\nm.mount(document.getElementById(\\\"formulario-propuestas\\\"),{ view:()=>m(FormularioSolicitud,{realm: localStorage.realm || \\\"alcantir\\\",contactPosition:'up', mailbox: 'incidences'})})\\n  \\n  \\n}) \\n    </script>\\n    \\n    \\n  </div>\\n  <div class=\\\"actions\\\">\\n    <div class=\\\"ui red deny button\\\">\\n      Cerrar\\n    </div>\\n    \\n  </div>\\n</div>\"}",
+              "tag": "div"
+            }
+          ],
+          "segments": [
+            {
+              "name": "menu-principal",
+              "_ref": "61e68e8345388e619f1e9c97#menu-principal",
+              "style": "padding: 0em;",
+              "dataid": "201869",
+              "className": "ui menu-wrapper",
+              "components": [
+                {
+                  "name": "dv-menu",
+                  "type": "component",
+                  "className": "ui menu",
+                  "dataid": "90382",
+                  "style": "\n    margin: 0;\n",
+                  "menuId": "620ce29a45388e619f1ea32c"
+                }
+              ],
+              "segments": []
+            },
+            {
+              "style": "padding: 0;",
+              "dataid": "190245",
+              "className": "column",
+              "components": [
+                {
+                  "name": "dv-simple",
+                  "type": "component",
+                  "className": "boton-contact-cabecera",
+                  "dataid": "197832",
+                  "localized": "{\"und\":\"<button class=\\\"ui active button\\\" id=\\\"abrir_modal\\\">\\n  <i class=\\\"envelope icon\\\"></i>\\n  Contacto\\n</button>\",\"va\":\"<button class=\\\"ui active button\\\" id=\\\"abrir_modal\\\">\\n  <i class=\\\"envelope icon\\\"></i>\\n  Contacte\\n</button>\",\"es\":\"<button class=\\\"ui active button\\\" id=\\\"abrir_modal\\\">\\n  <i class=\\\"envelope icon\\\"></i>\\n  Contacto\\n</button>\"}",
+                  "tag": "div"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "search-input",
+      "style": "padding: 1rem;",
+      "dataid": "3223",
+      "className": "sixteen wide column search-input menu-modal-region",
+      "components": [
+        {
+          "name": "dv-simple",
+          "type": "component",
+          "className": "close-modal",
+          "dataid": "468",
+          "tag": "button",
+          "value": "<span class=\"left\"></span>\n<span class=\"right\"></span>"
+        }
+      ],
+      "segments": [
+        {
+          "style": "padding: 1rem;",
+          "dataid": "6157",
+          "className": "column",
+          "components": [
+            {
+              "name": "dv-busqueda",
+              "type": "component",
+              "id": "search-menu",
+              "dataid": "3225",
+              "placeholder": "",
+              "icon": "search",
+              "url": "https://api.digitalvalue.es/alcantir/collections/articulos?fields=name&sort=name&name={query}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
